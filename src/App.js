@@ -7,9 +7,6 @@ function App() {
   return (
     <Card>
       <CardContent>
-        <Typography variant="h3" component="h2">
-          Math Fun App
-        </Typography>
         <Home />
       </CardContent>
     </Card>

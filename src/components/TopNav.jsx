@@ -30,6 +30,13 @@ export const TopNav = () => {
             </Button>
           </Link>
         </Grid>
+        <Grid item xs={1}>
+          <Link to="/geo">
+            <Button variant="contained" color="success" fullWidth>
+              Geometry
+            </Button>
+          </Link>
+        </Grid>
       </Grid>
     </React.Fragment>
   );
