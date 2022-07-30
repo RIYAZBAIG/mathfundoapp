@@ -23,4 +23,22 @@ export const data = [
     age: 22,
     gender: "female",
   },
+  {
+    fname: "Vimal",
+    lname: "Kumari",
+    age: 20,
+    gender: "female",
+  },
+  {
+    fname: "Tej",
+    lname: "Singh",
+    age: 21,
+    gender: "male",
+  },
+  {
+    fname: "Simran",
+    lname: "Shah",
+    age: 19,
+    gender: "female",
+  },
 ];
