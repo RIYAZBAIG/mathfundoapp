@@ -41,4 +41,10 @@ export const data = [
     age: 19,
     gender: "female",
   },
+  {
+    fname: "Kiran",
+    lname: "Shetty",
+    age: 30,
+    gender: "male",
+  },
 ];
