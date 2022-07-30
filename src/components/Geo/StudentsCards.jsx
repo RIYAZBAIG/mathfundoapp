@@ -7,10 +7,10 @@ export const StudentsCards = () => {
   const [filt, setFilt] = useState(data);
   return (
     <React.Fragment>
-      <Grid container spacing={3}>
+      <Grid container spacing={1}>
         {filt.map((item) => (
-          <Grid item xs={4}>
-            <StudentItem />
+          <Grid item xs={3} className="img">
+            <StudentItem item={item} />
           </Grid>
         ))}
       </Grid>
