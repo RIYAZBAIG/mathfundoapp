@@ -6,6 +6,7 @@ import { Square } from "./Square";
 import { NumSquare } from "./NumSquare";
 import { TopNav } from "./TopNav";
 import { Geo } from "./Geo";
+import { Todos } from "./Todos";
 
 export const Home = () => {
   return (
@@ -18,6 +19,7 @@ export const Home = () => {
           <Route path="/tables" element={<Tables />} />
           <Route path="/numbersquare" element={<NumSquare />} />
           <Route path="/geo" element={<Geo />} />
+          <Route path="/todos" element={<Todos />} />
         </Routes>
       </BrowserRouter>
     </React.Fragment>

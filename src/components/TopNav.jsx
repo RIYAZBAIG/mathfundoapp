@@ -31,9 +31,16 @@ export const TopNav = () => {
           </Link>
         </Grid>
         <Grid item xs={1}>
-          <Link to="/geo">
+          <Link to="/geo" className="tabnav">
             <Button variant="contained" color="success" fullWidth>
               Geometry
+            </Button>
+          </Link>
+        </Grid>
+        <Grid item xs={1}>
+          <Link to="/todos" className="tabnav">
+            <Button variant="contained" color="success">
+              Todos
             </Button>
           </Link>
         </Grid>
