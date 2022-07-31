@@ -1,9 +1,12 @@
 import React from "react";
+import { Card, CardContent } from "@mui/material";
 
-export const TaskItem = () => {
+export const TaskItem = ({ item }) => {
   return (
     <React.Fragment>
-      <p>Task 1</p>
+      <Card sx={{ bgcolor: "navy", color: "#ffffff" }}>
+        <CardContent>{item}</CardContent>
+      </Card>
     </React.Fragment>
   );
 };
