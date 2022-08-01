@@ -7,6 +7,7 @@ import { NumSquare } from "./NumSquare";
 import { TopNav } from "./TopNav";
 import { Geo } from "./Geo";
 import { Todos } from "./Todos";
+import { SmartyShop } from "./SmartyShop";
 
 export const Home = () => {
   return (
@@ -20,6 +21,7 @@ export const Home = () => {
           <Route path="/numbersquare" element={<NumSquare />} />
           <Route path="/geo" element={<Geo />} />
           <Route path="/todos" element={<Todos />} />
+          <Route path="/smartyshop" element={<SmartyShop />} />
         </Routes>
       </BrowserRouter>
     </React.Fragment>

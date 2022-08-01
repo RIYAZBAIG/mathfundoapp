@@ -44,6 +44,13 @@ export const TopNav = () => {
             </Button>
           </Link>
         </Grid>
+        <Grid item xs={2}>
+          <Link to="/smartyshop" className="tabnav">
+            <Button variant="contained" color="success">
+              Smarty Shop
+            </Button>
+          </Link>
+        </Grid>
       </Grid>
     </React.Fragment>
   );
